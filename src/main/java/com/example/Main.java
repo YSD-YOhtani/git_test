@@ -74,6 +74,7 @@ public class Main {
         }
         
         System.out.println("アプリケーションを終了します。");
+        System.out.println("monmon");
         scanner.close();
     }
 }
