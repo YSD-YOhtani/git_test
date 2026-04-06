@@ -61,7 +61,7 @@ class CalculatorTest {
     */
     
     @Test
-    @DisplayName("結果フォーマットのテスト")
+    @DisplayName("結果フォーマットのテスト321")
     void testFormatResult() {
         String result = calculator.formatResult("+", 2.5, 3.7, 6.2);
         assertEquals("2.50 + 3.70 = 6.20", result);
