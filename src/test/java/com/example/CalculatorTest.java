@@ -64,6 +64,7 @@ class CalculatorTest {
     @DisplayName("結果フォーマットのテスト123")
     void testFormatResult() {
         String result = calculator.formatResult("+", 2.5, 3.7, 6.2);
+        System.out.println(result); // デバッグ用出力
         assertEquals("2.50 + 3.70 = 6.20", result);
         
         // TODO: より多くのフォーマットテストを追加してください
