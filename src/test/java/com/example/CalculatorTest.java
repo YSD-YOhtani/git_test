@@ -19,7 +19,7 @@ class CalculatorTest {
     }
     
     @Test
-    @DisplayName("加算のテスト")
+    @DisplayName("加算のテスト123")
     void testAdd() {
         assertEquals(5.0, calculator.add(2.0, 3.0), 0.001);
         assertEquals(0.0, calculator.add(-1.0, 1.0), 0.001);
