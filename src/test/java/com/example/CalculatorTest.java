@@ -27,7 +27,7 @@ class CalculatorTest {
     }
     
     @Test
-    @DisplayName("減算のテスト")
+    @DisplayName("減算のテスト123")
     void testSubtract() {
         assertEquals(2.0, calculator.subtract(5.0, 3.0), 0.001);
         assertEquals(-2.0, calculator.subtract(3.0, 5.0), 0.001);
