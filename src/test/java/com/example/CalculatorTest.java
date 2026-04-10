@@ -19,7 +19,7 @@ class CalculatorTest {
     }
     
     @Test
-    @DisplayName("加算のテスト")
+    @DisplayName("加算のテスト123")
     void testAdd() {
         assertEquals(5.0, calculator.add(2.0, 3.0), 0.001);
         assertEquals(0.0, calculator.add(-1.0, 1.0), 0.001);
@@ -27,7 +27,7 @@ class CalculatorTest {
     }
     
     @Test
-    @DisplayName("減算のテスト")
+    @DisplayName("減算のテスト123")
     void testSubtract() {
         assertEquals(2.0, calculator.subtract(5.0, 3.0), 0.001);
         assertEquals(-2.0, calculator.subtract(3.0, 5.0), 0.001);
@@ -35,7 +35,7 @@ class CalculatorTest {
     }
     
     @Test
-    @DisplayName("乗算のテスト")
+    @DisplayName("乗算のテスト１２３")
     void testMultiply() {
         assertEquals(15.0, calculator.multiply(3.0, 5.0), 0.001);
         assertEquals(0.0, calculator.multiply(0.0, 5.0), 0.001);
