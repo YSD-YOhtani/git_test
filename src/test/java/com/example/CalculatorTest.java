@@ -35,7 +35,7 @@ class CalculatorTest {
     }
     
     @Test
-    @DisplayName("乗算のテスト")
+    @DisplayName("乗算のテスト１２３")
     void testMultiply() {
         assertEquals(15.0, calculator.multiply(3.0, 5.0), 0.001);
         assertEquals(0.0, calculator.multiply(0.0, 5.0), 0.001);
